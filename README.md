@@ -2,16 +2,19 @@
 Script ini membantu menemukan waktu terbaik untuk ketemuan di antara orang-orang sibuk dengan jadwal padat. Cukup masukkan jadwal dalam format JSON yang sudah ditentukan, dan program akan menghitung waktu kosong yang sesuai untuk semua pihak yang terlibat.
 
 ## Fitur
-Menemukan waktu kosong pada hari dan jam tertentu di antara jadwal berbagai orang.
-Memungkinkan konfigurasi jam kerja harian, sehingga dapat disesuaikan dengan kebutuhan (default: jam 7:00 hingga 23:00).
-Hasil output menunjukkan waktu kosong per hari.
-Struktur Proyek
+- Menemukan waktu kosong pada hari dan jam tertentu di antara jadwal berbagai orang.
+- Memungkinkan konfigurasi jam kerja harian, sehingga dapat disesuaikan dengan kebutuhan (default: jam 7:00 hingga 23:00).
+- Hasil output menunjukkan waktu kosong per hari.
+
+## Struktur Proyek
 template.json: Template jadwal yang harus diisi dengan jadwal orang-orang yang terlibat.
 possibility.py: Script utama untuk memproses jadwal dan menentukan waktu ketemuan terbaik.
-Prasyarat
+
+## Prasyarat
 Python 3.x
 Pastikan pustaka json dan datetime sudah tersedia (kedua pustaka ini adalah pustaka standar Python).
-Cara Menggunakan
+
+## Cara Menggunakan
 Isi Jadwal di template.json
 Format JSON yang digunakan adalah sebagai berikut:
 {
@@ -33,7 +36,7 @@ Setelah mengisi jadwal di template.json, jalankan script possibility.py dengan p
 python possibility.py
 ```
 
-### Contoh Output
+## Contoh Output
 Jadwal kosong pada hari Senin:
 09:00 - 09:30
 10:30 - 11:00
