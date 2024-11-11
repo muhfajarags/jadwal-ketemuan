@@ -15,8 +15,8 @@ Python 3.x
 Pastikan pustaka json dan datetime sudah tersedia (kedua pustaka ini adalah pustaka standar Python).
 
 ## Cara Menggunakan
-Isi Jadwal di template.json
-Format JSON yang digunakan adalah sebagai berikut:
+Isi Jadwal di template.json dengan format sebagai berikut:
+```bash
 {
   "person1": [
     {"hari": "Senin", "jam": "09:00 - 10:30", "kegiatan":"-"},
@@ -27,9 +27,11 @@ Format JSON yang digunakan adalah sebagai berikut:
     {"hari": "Rabu", "jam": "15:00 - 16:30", "kegiatan":"-"}
   ]
 }
+```
 hari: Hari dalam seminggu (gunakan format Indonesia: Senin, Selasa, Rabu, dst.)
 jam: Waktu mulai dan berakhir dalam format HH:MM - HH:MM.
-Jalankan Script
+
+## Jalankan Script
 Setelah mengisi jadwal di template.json, jalankan script possibility.py dengan perintah berikut:
 
 ```bash
