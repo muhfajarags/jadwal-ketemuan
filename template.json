@@ -1,0 +1,61 @@
+{
+  "person 1": [
+    {
+      "hari": "Senin",
+      "jam": "10:20 - 11:59",
+      "kegiatan": "-"
+    },
+    {
+      "hari": "Senin",
+      "jam": "12:50 - 14:29",
+      "kegiatan": "-"
+    },
+    {
+      "hari": "Selasa",
+      "jam": "07:00 - 08:39",
+      "kegiatan": "-"
+    },
+    {
+      "hari": "Selasa",
+      "jam": "10:20 - 11:59",
+      "kegiatan": "-"
+    },
+    {
+      "hari": "Sabtu",
+      "jam": "09:00 - 10:30",
+      "kegiatan": "-"
+    },
+    {
+      "hari": "Minggu",
+      "jam": "13:00 - 15:00",
+      "kegiatan": "-"
+    }
+  ],
+  "person2": [
+    {
+      "hari": "Senin",
+      "jam": "10:20 - 11:59",
+      "kegiatan": "-"
+    },
+    {
+      "hari": "Senin",
+      "jam": "12:50 - 14:29",
+      "kegiatan": "-"
+    },
+    {
+      "hari": "Selasa",
+      "jam": "10:20 - 11:59",
+      "kegiatan": "-"
+    },
+    {
+      "hari": "Sabtu",
+      "jam": "14:00 - 16:00",
+      "kegiatan": "-"
+    },
+    {
+      "hari": "Minggu",
+      "jam": "10:00 - 11:30",
+      "kegiatan": "-"
+    }
+  ]
+}
