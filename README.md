@@ -40,12 +40,16 @@ python possibility.py
 
 ## Contoh Output
 Jadwal kosong pada hari Senin:
+
 09:00 - 09:30
+
 10:30 - 11:00
+
 Jadwal kosong pada hari Selasa:
+
 07:00 - 09:00
+
 11:00 - 13:00
-...
 
 ## Catatan
 Slot waktu "12:00 - 12:30" akan otomatis diabaikan sebagai waktu kosong, sehingga waktu istirahat standar terhindarkan.
