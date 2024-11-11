@@ -1,4 +1,4 @@
-# Best Meeting Time Finder
+# Best Meeting Time Finder by Muhfajarags
 Script ini membantu menemukan waktu terbaik untuk ketemuan di antara orang-orang sibuk dengan jadwal padat. Cukup masukkan jadwal dalam format JSON yang sudah ditentukan, dan program akan menghitung waktu kosong yang sesuai untuk semua pihak yang terlibat.
 
 ## Fitur
